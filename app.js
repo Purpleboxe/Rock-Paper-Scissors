@@ -52,6 +52,7 @@ function playRound(playerSelection, computerSelection) {
             results = ('You lose, ' + computerSelection + ' beats ' + playerSelection + '!'
             + "<br><br> Player Score: " + playerScore + "<br>Computer Score: " + computerScore);
             if (computerScore == 5) {
+                disableChoices();
                 results = ('Sorry it looks like the CPU beat you to it!'
                 + "<br><br> Player Score: " + playerScore + "<br>Computer Score: " + computerScore);
             }
