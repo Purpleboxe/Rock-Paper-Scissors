@@ -2,9 +2,6 @@
 let playerScore = 0;
 let computerScore = 0;
 
-// Makes sure the player chose a option
-let chosen = false;
-
 // Get the buttons
 const buttons = document.querySelectorAll('input');
 
